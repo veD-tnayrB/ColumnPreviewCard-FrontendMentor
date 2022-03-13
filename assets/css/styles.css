@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .sedans {
+  background: #e38826;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+main .sedans button {
+  color: #e38826;
+}
+main .suvs {
+  background: #006970;
+}
+main .suvs button {
+  color: #006970;
+}
+main .luxury {
+  background: #004241;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+main .luxury button {
+  color: #004241;
+}
+main .card {
+  width: 13.2rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+main .card img {
+  width: 3.8rem;
+}
+main .card h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  color: #f2f2f2;
+  margin: 2.4rem 0 0 0;
+}
+main .card p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6rem;
+  margin: 1.4rem 0.5rem 5rem 0;
+}
+main .card button {
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  border-radius: 3rem;
+  cursor: pointer;
+  width: 6.5rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+main .card button:hover {
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.attribution {
+  font-size: 1rem;
+  position: absolute;
+  left: 30rem;
+  bottom: 2rem;
+}/*# sourceMappingURL=styles.css.map */
