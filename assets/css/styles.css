@@ -9,13 +9,14 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 main {
+  margin: 2rem 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,4 +83,30 @@ main .card button:hover {
   position: absolute;
   left: 30rem;
   bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    padding: 0 2.5rem;
+  }
+  main .sedans {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  main .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  main .card {
+    width: 80%;
+    min-width: 14rem;
+  }
+  main .card p {
+    margin: 1.4rem 0.5rem 1rem 0;
+  }
+
+  .attribution {
+    position: initial;
+    left: unset;
+    bottom: unset;
+  }
 }/*# sourceMappingURL=styles.css.map */
